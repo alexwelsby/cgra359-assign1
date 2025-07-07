@@ -1,93 +1,259 @@
-# Assignment 1
+# **CGRA 359 Games and Graphics Project**
 
+**Assignment 1 – Plan/Learn Phase: Technology Assessment or Game Design Document**
 
+**Weight:** 20%  
+**Due Date:** Friday, 25th July 2025  
+**Course:** CGRA 359 (30 points, Trimester 2, 2025)
 
-## Getting started
+---
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## **Objective**
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+As part of the Plan/Learn phase of your capstone project, demonstrate your ability to plan and research by either gaining deep understanding of a specific game technology or creating a game design document. This assignment builds foundation skills for your subsequent prototype and final game deliverables while creating portfolio-worthy content.
 
-## Add your files
+## **Method**
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+Choose **ONE** of the following options:
 
-```
-cd existing_repo
-git remote add origin https://gitlab.ecs.vuw.ac.nz/lms/cgra359/2025/assignment-1.git
-git branch -M main
-git push -uf origin main
-```
+**Option A:** Research and demonstrate a game technology and its practical application  
+**Option B:** Design a complete game and produce a Game Design Document (GDD)
 
-## Integrate with your tools
+---
 
-- [ ] [Set up project integrations](https://gitlab.ecs.vuw.ac.nz/lms/cgra359/2025/assignment-1/-/settings/integrations)
+## **Requirements**
 
-## Collaborate with your team
+### **Option A: Technology Research & Demonstration**
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+Create a comprehensive analysis of a game development technology that includes both research and practical demonstration. This option focuses on building technical skills directly applicable to game development using **Unreal Engine 5.6** or **Godot 4.4**.
 
-## Test and Deploy
+**Deliverables:**
+- Research report in markdown in the repository (maximum 1000 words)
+- Unreal Engine 5.6 or Godot 4.4 demonstration project
+- Video demonstration (3-5 minutes)
+- Git repository with proper Git LFS implementation - implemented in gitlab.ecs.vuw.ac.nz
 
-Use the built-in continuous integration in GitLab.
+**Report Structure:**
+- **Header Information:**
+  - Course: CGRA 359, Assignment 1
+  - Student name
+  - Technology title
+  - Date of submission
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+- **The Problem:**
+  - What game development challenge does this technology address?
+  - What are the limitations of previous/alternative approaches?
+  - Why is this technology relevant to modern game development?
 
-***
+- **The Technology:**
+  - Technical background and evolution
+  - Core implementation details
+  - Practical applications in game development
+  - Optional variations and advanced techniques
 
-# Editing this README
+- **Implementation Analysis:**
+  - Your Unreal/Godot demonstration overview
+  - Technical challenges encountered
+  - Performance considerations
+  - Integration with other game systems
+  - Code quality and Blueprint organization (if using Unreal)
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+- **Industry Usage:**
+  - Current adoption in the game industry
+  - Specific use cases and examples
+  - Why developers choose this over alternatives
 
-## Suggestions for a good README
+- **Future Outlook:**
+  - Technology trajectory and evolution
+  - Potential replacements or improvements
+  - Career relevance for game developers
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+- **Resources:**
+  - Effective search terms for further research
+  - Link to authoritative explanation
+  - Link to practical tutorial
+  - Additional learning resources
 
-## Name
-Choose a self-explaining name for your project.
+**Demonstration Repository Requirements:**
+- Report.md report file on the technology - something another student could use to understand the tech.
+- GitLab repository with proper Git LFS setup for large assets
+- Unreal Engine 5.6 or Godot 4.4 project
+- Comprehensive README.md file for the project. 
+- Working implementation showcasing key features
+- Video recording demonstrating functionality
+- Clean, well-commented code/Blueprints following industry standards
+- Proper .gitignore and .gitattributes configuration
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+---
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+### **Option B: Game Design Document (GDD)**
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+Create a comprehensive Game Design Document for an original game concept, demonstrating understanding of game design principles and production planning.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+**Deliverables:**
+- Complete Game Design Document (3000-4000 words)
+- Visual mockups/concept art (minimum 5 images)
+- Technical specification document
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+**GDD Structure:**
+- **Executive Summary:**
+  - Game concept overview
+  - Target audience
+  - Platform and technical requirements
+  - Development timeline estimate
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+- **Game Overview:**
+  - Core gameplay mechanics
+  - Genre and style
+  - Unique selling points
+  - Player experience goals
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+- **Gameplay Mechanics:**
+  - Core game loop
+  - Player actions and controls
+  - Game systems and interactions
+  - Progression and rewards
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+- **Technical Design:**
+  - Engine choice (Unreal Engine 5.6 or Godot 4.4) and justification
+  - Technical requirements and architecture
+  - Performance targets and optimization considerations
+  - Platform considerations and deployment strategy
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+- **Art and Audio Direction:**
+  - Visual style and art direction
+  - Audio design and music style
+  - UI/UX design principles
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+- **Level Design:**
+  - Game world structure
+  - Level progression
+  - Environmental storytelling
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+- **Production Plan:**
+  - Development phases and milestones
+  - Resource requirements and team structure
+  - Risk assessment and mitigation strategies
+  - Version control and project management strategy
+  - Testing and quality assurance approach
 
-## License
-For open source projects, say how it is licensed.
+- **Market Analysis (optional):**
+  - Competitive analysis
+  - Target market research
+  - Monetization strategy (if applicable)
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+---
+
+## **Recommended Technologies (Option A)**
+
+Focus on technologies that build practical game development skills:
+
+### **AI and Behavior Systems:**
+- **Navigation Mesh (NavMesh) implementation** - Essential for AI movement in Unreal/Godot
+- **Behavior Trees** - Modern AI decision-making systems
+- **Goal Oriented Action Planning (GOAP)** - Advanced AI planning systems
+- **AI Vibe Coding** - Emotional AI and procedural behavior using AI assistance
+- **Machine Learning for NPCs** - Adaptive AI behavior systems
+- **Blackboard Systems** - AI knowledge representation in Unreal
+
+### **Rendering and Visual Effects:**
+- **Custom Shader development** - Material Editor in Unreal or shader scripting in Godot
+- **Particle systems and VFX** - Niagara in Unreal or Godot's particle systems
+- **Post-processing pipelines** - Screen-space effects and camera filters
+- **Dynamic lighting systems** - Real-time global illumination and shadows
+- **Procedural material generation** - Runtime texture and material creation
+
+### **Game Systems:**
+- **Procedural content generation** - Runtime level/content creation systems
+- **Physics-based gameplay** - Advanced physics implementation in game engines
+- **Audio systems** - 3D spatial audio and dynamic music integration
+- **Networking for multiplayer** - Real-time multiplayer systems and replication
+- **Save/Load systems** - Data persistence and serialization strategies
+- **Blueprint optimization** - Performance-focused visual scripting (Unreal specific)
+
+### **Emerging Technologies:**
+- **Virtual/Augmented Reality** - VR development with Meta Quest integration
+- **Motion capture integration** - Mocap data processing and animation
+- **Cloud gaming systems** - Streaming and cloud-based game deployment
+- **Accessibility features** - Inclusive game design implementation
+- **Game analytics and telemetry** - Player behavior tracking and analysis
+
+---
+
+## **Submission Requirements**
+
+### **Option A Submission:**
+- GitLab repository link with proper Git LFS configuration
+- Research report (PDF)
+- Video demonstration (MP4, hosted on GitLab or YouTube)
+- Repository must include appropriate .gitignore and .gitattributes for chosen engine
+- Professional commit history demonstrating version control best practices
+
+### **Option B Submission:**
+- Complete GDD (PDF)
+- Visual assets (embedded in GDD or separate folder)
+- Technical specification document (PDF)
+
+---
+
+## **Assessment Criteria**
+
+**Technical Depth (40%):**
+- Understanding of chosen technology/design principles
+- Quality of implementation/design decisions
+- Problem-solving approach and technical rigor
+- Code quality and professional standards (including Blueprint organization for Unreal)
+
+**Communication (25%):**
+- Clarity of written documentation
+- Professional presentation and formatting
+- Effective use of visuals and demonstrations
+
+**Practical Application (20%):**
+- Relevance to modern game development practices
+- Real-world applicability and industry standards
+- Innovation and creative implementation
+
+**Professional Practice (15%):**
+- Git/Git LFS usage and version control practices
+- Code documentation and commenting standards
+- Repository organization and project structure
+
+---
+
+## **Getting Started**
+
+1. **Choose your path** - Technology demonstration or game design
+2. **Select your focus** - Pick a technology or game concept that aligns with your capstone goals
+3. **Set up your environment** - Install Unreal Engine 5.6 or Godot 4.4, configure Git with LFS
+4. **Plan your approach** - Create a 3-week timeline with clear milestones
+5. **Start early** - Begin research and prototyping early
+6. **Maintain quality** - Follow professional coding standards and version control practices
+7. **Seek feedback** - Use Discord office hours and lab sessions for guidance
+
+**Repository Setup Guidelines:**
+- Use appropriate .gitignore templates for your chosen engine
+- Configure Git LFS for large assets (textures, models, audio files)
+- Maintain clean commit history with descriptive messages
+- Include comprehensive README with setup instructions
+
+---
+
+## **Learning Outcomes**
+
+Upon completion, students will be able to:
+- Research and implement advanced game development technologies using industry-standard engines
+- Create comprehensive technical or design documentation following professional standards
+- Apply proper version control practices including Git LFS for game development projects
+- Demonstrate code quality standards appropriate for industry employment
+- Analyze and communicate technical concepts effectively to development teams
+- Plan and execute technical projects within constrained timeframes
+- Integrate AI-assisted development practices (vibe coding) effectively
+
+---
+
+## **Professional Standards Note**
+
+This assignment emphasizes industry-ready practices. Your code and Blueprints will be subject to peer review sessions where we discuss quality, organization, and professional standards. Remember: "Just working is not good enough" - we're preparing you for employment in the games industry where code quality and collaborative practices are essential.
+
+**AI Assistance Policy:** You are encouraged to use AI tools like GitHub Copilot for learning and development, but you must understand and be able to explain all code you submit. Focus on using AI as a learning tool rather than a replacement for understanding.
