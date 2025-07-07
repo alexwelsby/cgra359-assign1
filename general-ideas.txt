@@ -1,0 +1,6 @@
+Edu-game modelling predation or natural selection?
+Similar to Peppered Moth Game: https://askabiologist.asu.edu/games-sims/peppered-moths-game/play.html
+or kiiind of like this but with more of a focus on the 'sudden wolves' phase: https://phet.colorado.edu/sims/html/natural-selection/latest/natural-selection_all.html
+ideally the player is playing as a predator eliminating prey
+
+could pivot to a game modelling house cats being extremely effective in eliminating native birds vs mammals? and populations experiencing allee effects once they reach a critical loss of density
