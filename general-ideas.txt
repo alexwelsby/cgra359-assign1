@@ -3,4 +3,8 @@ Similar to Peppered Moth Game: https://askabiologist.asu.edu/games-sims/peppered
 or kiiind of like this but with more of a focus on the 'sudden wolves' phase: https://phet.colorado.edu/sims/html/natural-selection/latest/natural-selection_all.html
 ideally the player is playing as a predator eliminating prey
 
-could pivot to a game modelling house cats being extremely effective in eliminating native birds vs mammals? and populations experiencing allee effects once they reach a critical loss of density
+could pivot to a game modelling house cats being extremely effective in eliminating native birds vs mammals? and populations experiencing allee effects once they reach a threshold of critical loss of density... might be a bummer
+
+# The Hungry Ghosts
+
+# Still-born - or still-dead, as it were. For whatever reason they never woke. What energy is there is good for food and nothing else.
