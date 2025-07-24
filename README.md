@@ -3,7 +3,7 @@
 ![Eutrophia title sceen](eutrophia.gif "Eutrophia title sceen")
 [Watch pitch trailer here](https://www.youtube.com/watch?v=1u6rPjjJoxo)
 
-*The term "**eutrophication**" comes from the Greek **eutrophos**, meaning "**well-nourished**", [7] because the waterway has had an excessive amount of nutrients [such as nitrogen] for growth [...] it eventually strangulates the oxygen out [...]*
+*The term "**eutrophication**" comes from the Greek **eutrophos**, meaning "**well-nourished**", [7] because the waterway has had an excessive amount of nutrients [such as nitrogen], contributing to overgrowth [...] it eventually strangulates the oxygen out [...]*
 
 THE OLD WORLD IS DYING. THE NEW WORLD IS STRUGGLING TO BE BORN.
 SHED YOUR SKIN AND MEET IT.
@@ -52,14 +52,26 @@ Windows. It should be able to run on an average gaming laptop (8-16GB RAM; dedic
 ### Genre and style
 This is a sci-fi horror game, and is intended to be horror *without* jumpscares or enemies to chase you. Just you, the caves, and what lurks within you.
 ### Unique selling points
+The main draw of this game will be the atmosphere and story, as the number of puzzles will be small - about five Blockages to keep scope down. 
+
+While other games that feature unwanted pregnancies exist, I'm not currently aware of a game that centers the point of view *of the person carrying the unwanted pregnancy*. Mouthwashing told its story extremely effectively from (primarily) the POV of the surrounding male characters, but I was left with a desire to know more about Anya - not just as a victim, but as a person. While Mouthwashing was driving home a point about men protecting each other in the face of sexual assault accusations and did so with aplomb by focusing on Jimmy and Curly's perspectives, I found myself wanting a game that would give as much time to Anya's mental hellscape - her experiences, the life she came from, the future she was increasingly struggling to imagine for herself. I feel that, given the current political atmosphere in the US and the success of Mouthwashing, there's a sizable market for speaking to these anxieties, as well. Eutrophia is meant to be an answer to that desire.
 ### Player experience goals
- I imagine this effectively as an 'art puzzle' game along similar lines to the Myst series. While the themes, some mechanics, and art direction will push it in more of a 'horror' direction, there should be no (or minimal) jump scares, and no monsters chasing you. Just you, the living caves, and the ascent to a poisoned world.
+ I imagine this effectively as an 'art puzzle' game along similar lines to the Myst series. While the themes, some mechanics, and art direction will push it in more of a 'horror' direction, there should be no (or minimal) jump scares, and no monsters chasing you. Just you, the living caves, what lurks within you, and the ascent to a poisoned world.
 ### **Gameplay Mechanics:**
 #### Core game loop
-The player moves forward through a linear route to complete puzzles and avoid situations that may increase their Panic and decrease their Oxygen. As they complete puzzles, they will uncover new leavings 
+The player finds all Wall-Eyes in a given room using the ultrasound/scapel. There are a limited amount of Wall-Eyes in each area (1-2); in order to find more, they must solve Blockages for forward progression. Each new area has new Wall-Eyes at different stages of development and new story objects which will prompt the player to press [J] to 'take notes' and learn the character's perspective.
 #### Player actions and controls
+[1] - Your hands. Right-click to manipulate an object, such as turning gears for a Blockage. Left-click to put it in your inventory.
+[2] - Your mobile ultrasound wand. Right-click on an appropriate area to see what lurks within the wall.
+[3] - A scapel. Right-click to cut into walls or other things that need cutting.
+[J] - Your Journal. Pulls up a full-screen UI. Right or left click to 'flip' through your pages of notes.
+[I] - Your Inventory. Shows you what you're carrying (and an MRI-esque scan of your body). Right click on an object to drop it, or inspect its description.
+[WASD] - Movement through the world.
 #### Game systems and interactions
+
 #### Progression and rewards
+The player progresses through the world by solving puzzles in the form of Blockages. Rewards come in the form of story beats that are disclosed through the character's Journal, which the player must open after each Wall-Eye to mark how many Wall-Eyes they've found and their conditions.
+Sparse mechanic rewards will also be delivered in the form of scavenged leavings from the previous expedition; the player can equip a re-breather to increase their Oxygen, or eat found food rations to decrease their Panic.
 
 ### **Technical Design:**
 #### Engine choice (Unreal Engine 5.6 or Godot 4.4) and justification
@@ -77,7 +89,7 @@ While some aesthetic sensibilities such as pulsing buildings and veined walls wi
 
 While, yes, aliens shot a giant terraforming laser at Earth that turned the seas to blood and made every human-made building into a living structure that endlessly grows downwards (the fantastical elements are there) the way objects, puzzles, and physics itself interact should draw more from our present world than from 'aliens did it'. There might be a giant living clock in the center of a room, but you still need to interact with physical, weighty gears to turn the plates on its face. The interfaces that make themselves apparent to you should remain recognizably human and even 'old-fashioned'.
 #### Audio design and music style
-*Synth notes billowed from a vast windpipe carrying dead air and pre-language vocalizations.* 
+*Synth notes and pre-language vocalizations billowed from a vast windpipe carrying dead air.* 
 
 The best musical touch-stones are Thierry Zabolitzeff's Promethee and Anna Holmer's work with Breadwoman & Other Tales. Ideally, music should echo and sound 'airy', with a focus on instruments that convey breath such as members of the woodwind family; experimentation with billows and whatever else is encouraged, we're looking for wind and echoes through empty space. 
 
@@ -107,14 +119,50 @@ As the player progresses through the world, they should find small keepsakes and
 It should be implied late in the game that the character has kept secret that they are two months pregnant out of fear of being forced into motherhood, and had made the mistake of disclosing their discovery to their partner, who was the head scientist leading the expedition. While the player character still hasn't decided what to do about it, their partner's insistence that they tell the council and force an exit from scientific life and become permanently domestic - an insistence that happened against the backdrop of an expedition where they cut the Earth open to collect the meat inside - caused the player character to run off into the depths of the Earth to wander alone. Hunger eventually drove them back to the settlement, which drove them back out on a last expedition as punishment.
 ### **Production Plan**
 #### Development phases and milestones
+Phase 1: Basic implementation pass
+* Deciding on what puzzles should be included
+* Rough working UI pass (pressing J should bring up a placeholder journal that can flip between .png pages, pressing I should bring up an inventory that shows what you're currently carrying)
+* working mechanics pass (1 should bring up your hands which can interact with gears to rotate them or pick up objects, 2 should bring up a scapel that can be swung and does 'damage' to some regions on a wall but not others, pressing 3 should bring up an ultrasound that displays a .png if a valid region on the wall is right-clicked)
+* Rough structure of the tunnels laid out; puzzles not implemented yet, but grey-boxed rooms and tunnels between them should be implemented
+
+Phase 2: Story pass
+* Implementation of puzzles/Blockages into world; puzzles should be in a rough working state by this point and successfully block progress if a user has not solved the Blockage yet and allow the player to advance if they have
+* Implementation of Wall-Eyes: ultrasounding/scapeling specific areas of the wall should produce a placeholder model for a Wall-Eye which is placed on the floor and can be picked up by pressing E. The user's Journal should update with the number of Wall-Eyes they currently have and a rough draft of their 'findings' of the state of the Wall-Eyes
+* Implementation of story objects: What objects the previous expedition left behind should be decided on at this point, clipboards, re-breathers, food rations, scraps of notes or clothing. Pressing E on these dropped objects will add more story notes to the Journal; the object will also take up space in the player's Inventory, which will need to be managed. 
+
+Phase 3: Art pass
+* With the finalization of gameplay, the game should now go through an art pass. This will include:
+* Creation of UI art assets (2D)
+* Creation of final architecture and Blockage assets (3D)
+* creation of ultrasounding/scapel/story object assets (3D/2D (for Inventory icon))
+* Creation of Wall-Eye assets (3D/2D (for Inventory icon))
+* Creation of textures for all 3D models
+* Further refinement of writing - for the Journal, for storybeats
+
 #### Resource requirements and team structure
+This is an art-heavy game, and will likely need two or three artists and a minimum of two programmers to avoid overtaxing any one individual, three programmers if one programmer is a writer (as I would be if I were involved).
+The way I would set it up is:
+* 2D texture and icon artist
+* 3D artist - dedicated to architecture, level assets
+* 3D/2D artist - floater - focus on story object assets, can help with general 2D/3D art where more hands needed
+* Programmer - working on implementing movement, mechanics
+* Programmer - working on implementing Blockage logic, story checks
+* Programmer - floater - works on keying in the UI, and when that's done helps with other tasks that need doing; can be a writer
+* Sound designer - Produces the musical pieces and UI/foley sounds for the game.
+
 #### Risk assessment and mitigation strategies
+The generously sized-team is designed specifically with the idea of individuals needing more or less work on a given day in mind; if the dedicated 3D architecture artist falls ill, the floater 3D/2D artist can fill in. Likewise, if the programmer working on Blockage logic is hit by a car (God forbid), the floating Writer/Programmer role can fill the gap.
 #### Version control and project management strategy
 #### Testing and quality assurance approach
+The game should be tested
 
 ### **Market Analysis (optional)**
 #### Competitive analysis
-This piece was not designed to be competitive, aside from adding to the conversation within the realm of interactive media regarding pregnancy horror. Mouthwashing focused on the experiences of the men around Anya but still conveyed her story with tact; however, I feel there's a missing link with regards to media that focuses pregnancy horror and *depicting it from the perspective of the person carrying the pregnancy*.
+This piece was not designed to be competitive with other games, aside from adding to the conversation within the realm of interactive media regarding reproductive horror. 
 #### Target market research
+This is an art game and is meant to speak to present reproductive anxieties as a cultural artifact. Research into the present challenges people are facing in regions where reproductive rights have been eroded would be ideal.
 #### Monetization strategy (if applicable)
 This is an art game. It's intended to be bought once and played as an art and conversation piece. While I am aware of other games with similar themes that then monetized the characters into cute plushies, stickers, etc, I would like to avoid that with Eutrophia. At most, perhaps 3D print figurines of the more iconic architectural Blockages could be sold for people to use as they'd like or keep as keepsakes.
+
+
+
