@@ -67,7 +67,30 @@ The player finds all Wall-Eyes in a given room using the ultrasound/scapel. Ther
 [J] - Your Journal. Pulls up a full-screen UI. Right or left click to 'flip' through your pages of notes.
 [I] - Your Inventory. Shows you what you're carrying (and an MRI-esque scan of your body). Right click on an object to drop it, or inspect its description.
 [WASD] - Movement through the world.
+[ctrl] - Crouch.
+[space-bar] - Jump.
+[Shift] - Sprint.
 #### Game systems and interactions
+*Movement*:
+* The player can move using WASD.
+* Jump using [space-bar]; Jumping uses up a small amount of Oxygen
+* crouch using [ctrl]
+* Sprint using [Shift]; Sprinting uses up Oxygen over time, stopping when the bar is at 20%
+
+*Player stats*:
+* Oxygen: The player has a mock oximeter in the upper left corner of their screen at all times, that goes up over time, or goes down during exertion, at high elevations, or with high Panic. Low oxygen darkens and blurs the screen; Oxygen remaining critically low for 15 seconds results in a Game Over.
+* Panic: The player has a mock heart-rate UI below their oximeter. A faster heart-rate chews through Oxygen. A player's heart-rate can increase during exertion or times of high Panic, such as dark or narrow spaces.
+
+
+*Inventory & Equipment*:
+* Press [I] to open the inventory. The inventory works on a grid pattern, with different objects taking up different numbers of squares. The re-breather is the largest item in the game.
+* Items should have tool-tips that include small notes about the item; clicking on the tooltip could open the Journal.
+
+*Journal*:
+* Press [J] to open the Journal. The Journal keeps track of the number of Wall-Eyes you've found (and thus, how close you are to completing the game) and the character's thoughts regarding the last expedition's failures.
+
+*World interaction*:
+* The player can interact with quest triggers or Blockage triggers by pressing [E].
 
 #### Progression and rewards
 The player progresses through the world by solving puzzles in the form of Blockages. Rewards come in the form of story beats that are disclosed through the character's Journal, which the player must open after each Wall-Eye to mark how many Wall-Eyes they've found and their conditions.
@@ -78,8 +101,15 @@ Sparse mechanic rewards will also be delivered in the form of scavenged leavings
 Unreal Engine 5.6; for VR capacity and semi-realistic graphics. 
 Part of what made Myst and Riven so striking was the strong art direction and the incredible visuals for the time period. Unreal's dedication to realistic rendering would help contribute to this for Eutrophia.
 #### Technical requirements and architecture
+The game should be able to run on a low-end computer with 8GB RAM and a 10 series Nvidia.
 #### Performance targets and optimization considerations
+Eutrophia should be optimized with the minimum spec in mind - a Windows 10 computer with 8GB RAM and a 10 series Nvidia. 
 #### Platform considerations and deployment strategy
+We’re developing for:
+* Windows 10 and Windows 11 
+* x64 only 
+
+It's, at most, being uploaded to itch.io as a $15 game. I'm not messing around with Steam integration.
 
 ### **Art and Audio Direction:**
 #### Visual style and art direction
@@ -153,8 +183,12 @@ The way I would set it up is:
 #### Risk assessment and mitigation strategies
 The generously sized-team is designed specifically with the idea of individuals needing more or less work on a given day in mind; if the dedicated 3D architecture artist falls ill, the floater 3D/2D artist can fill in. Likewise, if the programmer working on Blockage logic is hit by a car (God forbid), the floating Writer/Programmer role can fill the gap.
 #### Version control and project management strategy
+* Git (with Git LFS for large binaries)
+* Project members should work on their own branches for their changes and use smart commits; merges should be approved by 1 other teammate
+* Perforce for source assets (preferred for binary diffs)
+
 #### Testing and quality assurance approach
-The game should be tested
+Each programmer will be responsible for testing their own code and testing a partner's code that they sign off on merge requests for. They'll need to build and test their changes locally before creating a merge request, and their request can only be merged if their partner also tests and approves their work. With three programmers, this will make for a triangle of programmer A supporting programmer B, programmer B supporting programmer C, and so on. They'll need to test for working story triggers, working Blockage triggers and animations, and working UI elements.
 
 ### **Market Analysis (optional)**
 #### Competitive analysis
