@@ -22,6 +22,8 @@ Within the increasingly-organic subterranean cathedrals, offices, and houses tha
 
  Your assignment: to trudge alone armed only with an ultrasound tool, a scapel, and a journal. Head towards the surface. Solve Blockages. Excise Wall-Eyes. Document their features. Do not return until you have found the reason for the failure of the expedition you abandoned.
 
+![Meat clock](clock.png "The Clock Blockage")
+
 ### Target audience
 Ages 16+, with a particular pull towards marginalized gender identities.
 
@@ -49,6 +51,8 @@ Windows. It should be able to run on an average gaming laptop (8-16GB RAM; dedic
 
 **Exploration:** Exploration should be rewarding by delivering novel visuals to players and new clues about the story.
 
+
+
 ### Genre and style
 This is a sci-fi horror game, and is intended to be horror *without* jumpscares or enemies to chase you. Just you, the caves, and what lurks within you.
 ### Unique selling points
@@ -57,6 +61,9 @@ The main draw of this game will be the atmosphere and story, as the number of pu
 While other games that feature unwanted pregnancies exist, I'm not currently aware of a game that centers the point of view *of the person carrying the unwanted pregnancy*. Mouthwashing told its story extremely effectively from (primarily) the POV of the surrounding male characters, but I was left with a desire to know more about Anya - not just as a victim, but as a person. While Mouthwashing was driving home a point about men protecting each other in the face of sexual assault accusations and did so with aplomb by focusing on Jimmy and Curly's perspectives, I found myself wanting a game that would give as much time to Anya's mental hellscape - her experiences, the life she came from, the future she was increasingly struggling to imagine for herself. I feel that, given the current political atmosphere in the US and the success of Mouthwashing, there's a sizable market for speaking to these anxieties, as well. Eutrophia is meant to be an answer to that desire.
 ### Player experience goals
  I imagine this effectively as an 'art puzzle' game along similar lines to the Myst series. While the themes, some mechanics, and art direction will push it in more of a 'horror' direction, there should be no (or minimal) jump scares, and no monsters chasing you. Just you, the living caves, what lurks within you, and the ascent to a poisoned world.
+
+![A concept for a Blockage](meat_solar_system.png "A concept for a Blockage")
+
 ### **Gameplay Mechanics:**
 #### Core game loop
 The player finds all Wall-Eyes in a given room using the ultrasound/scapel. There are a limited amount of Wall-Eyes in each area (1-2); in order to find more, they must solve Blockages for forward progression. Each new area has new Wall-Eyes at different stages of development and new story objects which will prompt the player to press [J] to 'take notes' and learn the character's perspective.
@@ -70,6 +77,7 @@ The player finds all Wall-Eyes in a given room using the ultrasound/scapel. Ther
 [ctrl] - Crouch.
 [space-bar] - Jump.
 [Shift] - Sprint.
+
 #### Game systems and interactions
 *Movement*:
 * The player can move using WASD.
@@ -91,6 +99,8 @@ The player finds all Wall-Eyes in a given room using the ultrasound/scapel. Ther
 
 *World interaction*:
 * The player can interact with quest triggers or Blockage triggers by pressing [E].
+
+![The inventory screen](Inventory.png "Eutrophia inventory mockup")
 
 #### Progression and rewards
 The player progresses through the world by solving puzzles in the form of Blockages. Rewards come in the form of story beats that are disclosed through the character's Journal, which the player must open after each Wall-Eye to mark how many Wall-Eyes they've found and their conditions.
