@@ -121,6 +121,8 @@ We’re developing for:
 
 It's, at most, being uploaded to itch.io as a $15 game. I'm not messing around with Steam integration.
 
+![organic house](organic_house.png "An organic house with the scalpel selected")
+
 ### **Art and Audio Direction:**
 #### Visual style and art direction
 Biopunk / steampunk / fantasy / real-world architecture; 'realism', but within the restrictions of PS2-era graphics to keep asset scope smaller. [Myst managed to be beautiful while being visibly low-res to modern eyes.](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.atlasobscura.com%2F6EuWxWPJMKwvB49ZS7eSBYwV3Ztsik3oNJ4MCFBZVyw%2Frt%3Afit%2Fw%3A1280%2Fq%3A81%2Fsm%3A1%2Fscp%3A1%2Far%3A1%2FaHR0cHM6Ly9hdGxh%2Fcy1kZXYuczMuYW1h%2Fem9uYXdzLmNvbS91%2FcGxvYWRzL2Fzc2V0%2Fcy80YWU3ZTljNS1h%2FNDZhLTRmZWUtYTU0%2FMS1hOGQ3ODQ5ZDQ1%2FMTQ5ODM0NTljNjJi%2FNjg5ODEyYzBfbXlz%2FdHBpYzMuUE5H.png&f=1&nofb=1&ipt=53b72157a4c3798da5f2573bd95abd07f3216c28f42ed843136f6edfd62ca42b)
@@ -159,7 +161,7 @@ As the player progresses through the world, they should find small keepsakes and
 
 It should be implied late in the game that the character has kept secret that they are two months pregnant out of fear of being forced into motherhood, and had made the mistake of disclosing their discovery to their partner, who was the head scientist leading the expedition. While the player character still hasn't decided what to do about it, their partner's insistence that they tell the council and force an exit from scientific life and become permanently domestic - an insistence that happened against the backdrop of an expedition where they cut the Earth open to collect the meat inside...
 
-Whether the main character attacked their partner, killed them, or simply ran off all that time ago is nebulous, but what's on-screen is this: the final Wall-Eye the player extracts in Eutrophia looks like the partner. In fact, it looks exactly like the partner. They're not cognizant, but can breathe the air of the poisoned world just fine. It's up to the player what they want to do about that, if anything. The game ends on that note - identity emerging and being re-made by the environment it's found in.
+Whether the main character simply ran off or even attacked their partner all that time ago is nebulous, but what's on-screen is this: the final Wall-Eye the player extracts in Eutrophia looks like the partner. In fact, it looks exactly like the partner. They're not cognizant, but can breathe the air of the poisoned world just fine. It's up to the player what they want to do about that, if anything. The game ends on that note - identity emerging and being re-made by the environment it's found in.
 
 ### **Production Plan**
 #### Development phases and milestones
